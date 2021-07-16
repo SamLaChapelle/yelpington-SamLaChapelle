@@ -1,38 +1,76 @@
-.App {
+/* imported google font */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+  margin: 0;
+}
+/* main div holding everything on home page */
+#root{
+  background-color: rgb(20, 34, 26);
+  height: 100vh;
+}
+/* the homepage title */
+#homeTitle{
   text-align: center;
+  font-size: 15vh;
+  color: white;
+  background-color: rgb(20, 34, 26);
+  font-family: 'Shadows Into Light', cursive;
+  height: 20vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* the main display holding the restaurant list and map */
+#mainDisplay{
+  display:flex;
+  flex-direction: row;
+  background-color: rgb(20, 34, 26);
+  margin-top: 10vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* restaurant display holding the list of restaurants */
+#restaurantDisplay{
+  background-color: rgb(20, 34, 26);
+  border: ridge rgb(85, 59, 29) 2vh;
+  width:25vw;
+  height: 60vh;
+  margin-left: 15vw;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* restaurant display title */
+#resDisplayTitle{
+  color: white;
+  font-size: 5vh;
+  font-family: 'Shadows Into Light', cursive;
+  text-decoration: underline;
+  padding-left: 5vw;
+  padding-top: 2vh;
+}
+/* under restaurant display title "Richmond,Virginia" */
+#resLocationsTitle{
+  color: white;
+  font-size: 3vh;
+  font-family: 'Shadows Into Light', cursive;
+  padding-left: 6.5vw;
+}
+/* the restaurant list */
+#resList{
+  color: white;
+  font-size: 3vh;
+  font-family: 'Shadows Into Light', cursive;
+  padding-top: 2vh;
+  padding-left: 5vw;
+}
+/* resList anchor tags */
+a{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover{
+  color: yellow;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* the map display */
+#mapDisplay{
+  float: right;
+  border: ridge rgb(85, 59, 29) 2vh;
+  width: 50vw;
+  height: 60vh;
+
 }

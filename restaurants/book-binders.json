@@ -4,5 +4,6 @@
   "address": "2306 East Cary Street, Richmond, VA 23223",
   "phone-number": "804-643-6900",
   "hours": "Monday-Thursday 5pm - 9pm | Friday 5pm - 9:30pm | Saturday 4pm - 9:30pm | Sunday 4pm - 8pm",
-  "notes": "Richmond's historic and award winning steak house."
+  "notes": "Richmond's historic and award winning steak house.",
+  "position": [37.52916, -77.42319]
 }

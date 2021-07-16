@@ -11,18 +11,23 @@ const port = process.env.PORT || 5000;
 const restaurantDir = path.resolve("./restaurants");
 //setting the server to a static server to always host ./client/public unless directed otherwise
 app.use(express.static("./client/public"));
+
 //sending a get request to set up the route for each individual restaurant JSON object
 app.get("/api/:restaurantId", (req, res) => {
   let filePath = path.join(restaurantDir, req.params.restaurantId + ".json");
   res.sendFile(filePath);
 });
-//sending a get request to set up a route for the JSON object array housing all restaurant id's
+//sending a get request to set up a route for the JSON object array housing all restaurant id's and each of their individual JSON objects
 app.get("/api", (req, res) => {
+  //assigning the rests variable to call the allRestaurant function
   let rests = allRestaurants();
+  //assigning resData variable to the JSON object stringified the rests data
   let resData = JSON.stringify(rests);
+  //sending the resData
   res.type("text/json").send(resData);
 });
 
+//this allRestaurants function looks in to the restaurants folder and for all files that end with .json then map over them and parse them and path.join with the main folder they are in
 function allRestaurants() {
   return fs
     .readdirSync(restaurantDir)
