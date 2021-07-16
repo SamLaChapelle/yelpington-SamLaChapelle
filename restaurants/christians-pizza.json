@@ -1,0 +1,11 @@
+{
+  "id": "christians-pizza",
+  "name": "Christians Pizza",
+  "address": "404 North Harrison Street, Richmond, VA 23220",
+  "phone-number": "804-204-1643",
+  "hours": "Monday - Sunday 11am - 11pm",
+  "notes": [
+    "This place is the best pizza place south of NYC!",
+    "Excellent customer service."
+  ]
+}
