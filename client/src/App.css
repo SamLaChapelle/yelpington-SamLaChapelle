@@ -57,12 +57,12 @@
   padding-top: 2vh;
   padding-left: 5vw;
 }
-/* resList anchor tags */
-a {
+/* resList tags */
+.resLinks {
   color: white;
 }
 
-a:hover {
+.resLinks:hover {
   color: yellow;
 }
 
@@ -72,6 +72,10 @@ a:hover {
   border: ridge rgb(85, 59, 29) 2vh;
   width: 50vw;
   height: 60vh;
+}
+
+#homeButton {
+  color:black
 }
 
 #resPageTitle{

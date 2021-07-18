@@ -45,30 +45,30 @@ function Home() {
           <ul id="resList">
             {/* each restaurant with their own link to their specified page */}
             <li>
-              <Link to="/restaurant/beauvine-burger-concept">
+              <Link class="resLinks" to="/restaurant/beauvine-burger-concept">
                 Beauvine Burger Concept
               </Link>
             </li>
             <li>
-              <Link to="/restaurant/sticky-rice">Sticky Rice</Link>
+              <Link class="resLinks" to="/restaurant/sticky-rice">Sticky Rice</Link>
             </li>
             <li>
-              <Link to="/restaurant/lunch-supper">Lunch. Supper!</Link>
+              <Link class="resLinks" to="/restaurant/lunch-supper">Lunch. Supper!</Link>
             </li>
             <li>
-              <Link to="/restaurant/perlys">Perly's</Link>
+              <Link class="resLinks" to="/restaurant/perlys">Perly's</Link>
             </li>
             <li>
-              <Link to="/restaurant/book-binders">Book Binder's</Link>
+              <Link class="resLinks" to="/restaurant/book-binders">Book Binder's</Link>
             </li>
             <li>
-              <Link to="/restaurant/shyndigz">Shyndigz</Link>
+              <Link class="resLinks" to="/restaurant/shyndigz">Shyndigz</Link>
             </li>
             <li>
-              <Link to="/restaurant/goatocado">Goatocado</Link>
+              <Link class="resLinks" to="/restaurant/goatocado">Goatocado</Link>
             </li>
             <li>
-              <Link to="/restaurant/christians-pizza">Christian's Pizza</Link>
+              <Link class="resLinks" to="/restaurant/christians-pizza">Christian's Pizza</Link>
             </li>
           </ul>
         </div>

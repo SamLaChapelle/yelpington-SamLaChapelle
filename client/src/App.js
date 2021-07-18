@@ -1,7 +1,7 @@
 //importing css for App
 import "./App.css";
 //importing browser router, route, switch, link
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter, Route, Switch} from "react-router-dom";
 //importing home page
 import Home from "./components/home";
 //importing restaurant page
