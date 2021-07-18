@@ -2,8 +2,8 @@
   "id": "beauvine-burger-concept",
   "name": "Beauvine Burger Concept",
   "address": "1501 West Main Street, Richmond, VA 23220",
-  "phone-number": "804-592-5592",
+  "phoneNumber": "804-592-5592",
   "hours": "Monday-Sunday 11am to Midnight",
-  "notes": ["You had me at soy free!", "Brunch starts at 11am!"],
+  "notes": {"noteOne": "You had me at soy free!", "noteTwo":"Brunch starts at 11am!"},
   "position": [37.54687, -77.45997]
 }

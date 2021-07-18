@@ -2,8 +2,11 @@
   "id": "perlys",
   "name": "Perly's",
   "address": "111 East Grace Street, Richmond, VA 23219",
-  "phone-number": "804-912-1560",
+  "phoneNumber": "804-912-1560",
   "hours": "Monday-Saturday 8am - 9pm | Sunday 8am - 3pm",
-  "notes": ["Our favorite place to eat when in RVA!", "Best food ever!!"],
+  "notes": {
+    "noteOne": "Our favorite place to eat when in RVA!",
+    "noteTwo": "Best food ever!!"
+  },
   "position": [37.54409, -77.44152]
 }

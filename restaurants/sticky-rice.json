@@ -2,11 +2,11 @@
   "id": "sticky-rice",
   "name": "Sticky Rice",
   "address": "2232 West Main Street, Richmond, VA 23220",
-  "phone-number": "804-3587870",
+  "phoneNumber": "804-358-7870",
   "hours": "Monday-Sunday 11am - 10pm",
-  "notes": [
-    "Happy Hour is from 4pm  to 7pm everyday!",
-    "Sushi Heaven event every monday night between 10:30pm - 12:30am"
-  ],
+  "notes": {
+    "noteOne": "Happy Hour is from 4pm  to 7pm everyday!",
+    "noteTwo": "Sushi Heaven event every monday night between 10:30pm - 12:30am"
+  },
   "position": [37.55081, -77.46934]
 }

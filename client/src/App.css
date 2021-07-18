@@ -1,76 +1,153 @@
 /* imported google font */
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 
 * {
   margin: 0;
 }
 /* main div holding everything on home page */
-#root{
+#root {
   background-color: rgb(20, 34, 26);
   height: 100vh;
 }
 /* the homepage title */
-#homeTitle{
+#homeTitle {
   text-align: center;
   font-size: 15vh;
   color: white;
   background-color: rgb(20, 34, 26);
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   height: 20vh;
 }
 /* the main display holding the restaurant list and map */
-#mainDisplay{
-  display:flex;
+#mainDisplay {
+  display: flex;
   flex-direction: row;
   background-color: rgb(20, 34, 26);
   margin-top: 10vh;
 }
 /* restaurant display holding the list of restaurants */
-#restaurantDisplay{
+#restaurantDisplay {
   background-color: rgb(20, 34, 26);
   border: ridge rgb(85, 59, 29) 2vh;
-  width:25vw;
+  width: 25vw;
   height: 60vh;
   margin-left: 15vw;
 }
 /* restaurant display title */
-#resDisplayTitle{
+#resDisplayTitle {
   color: white;
   font-size: 5vh;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   text-decoration: underline;
   padding-left: 5vw;
   padding-top: 2vh;
 }
 /* under restaurant display title "Richmond,Virginia" */
-#resLocationsTitle{
+#resLocationsTitle {
   color: white;
   font-size: 3vh;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   padding-left: 6.5vw;
 }
 /* the restaurant list */
-#resList{
+#resList {
   color: white;
   font-size: 3vh;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   padding-top: 2vh;
   padding-left: 5vw;
 }
 /* resList anchor tags */
-a{
+a {
   color: white;
 }
 
-a:hover{
+a:hover {
   color: yellow;
 }
 
 /* the map display */
-#mapDisplay{
+#mapDisplay {
   float: right;
   border: ridge rgb(85, 59, 29) 2vh;
   width: 50vw;
   height: 60vh;
-
 }
+
+#resPageTitle{
+  text-align: center;
+  font-size: 15vh;
+  color: white;
+  background-color: rgb(20, 34, 26);
+  font-family: "Shadows Into Light", cursive;
+  height: 20vh;
+}
+
+#mainResDisplay {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(20, 34, 26);
+  margin-top: 10vh;
+  position: fixed;
+}
+
+#restaurantResDisplay {
+  background-color: rgb(20, 34, 26);
+  border: ridge rgb(85, 59, 29) 2vh;
+  width: 25vw;
+  height: 60vh;
+  margin-left: 15vw;
+}
+
+#restaurantName{
+  color: white;
+  font-size: 5vh;
+  font-family: "Shadows Into Light", cursive;
+  text-decoration: underline;
+  padding-top: 1vh;
+}
+
+#resAddress{
+  color: white;
+  font-size: 3vh;
+  font-family: "Shadows Into Light", cursive;
+  padding-top: 1vh;
+}
+
+#resPhoneNumber{
+  color: white;
+  font-size: 3vh;
+  font-family: "Shadows Into Light", cursive;
+  padding-top: 1vh;
+}
+
+#resHours{
+  color: white;
+  font-size: 3vh;
+  font-family: "Shadows Into Light", cursive;
+  padding-top: 1vh;
+}
+
+#customerNotes{
+  color: white;
+  font-size: 3vh;
+  font-family: "Shadows Into Light", cursive;
+  text-decoration: underline;
+  padding-top: 1vh;
+}
+
+#resNotes{
+  color: white;
+  font-size: 2vh;
+  font-family: "Shadows Into Light", cursive;
+  padding-top: 1vh;
+}
+
+#resMapDisplay{
+  float: right;
+  border: ridge rgb(85, 59, 29) 2vh;
+  width: 50vw;
+  height: 60vh;
+}
+
+
