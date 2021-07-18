@@ -37,9 +37,12 @@ function Home() {
 
   return (
     <div id="root">
+      {/* home page title */}
       <h1 id="homeTitle">Yelpington</h1>
+      {/* home page res list display and map */}
       <div id="mainDisplay">
         <div id="restaurantDisplay">
+          {/* Restaurant List */}
           <h1 id="resDisplayTitle">RESTAURANTS</h1>
           <h3 id="resLocationsTitle">RICHMOND,VIRGINIA</h3>
           <ul id="resList">
@@ -50,35 +53,50 @@ function Home() {
               </Link>
             </li>
             <li>
-              <Link class="resLinks" to="/restaurant/sticky-rice">Sticky Rice</Link>
+              <Link class="resLinks" to="/restaurant/sticky-rice">
+                Sticky Rice
+              </Link>
             </li>
             <li>
-              <Link class="resLinks" to="/restaurant/lunch-supper">Lunch. Supper!</Link>
+              <Link class="resLinks" to="/restaurant/lunch-supper">
+                Lunch. Supper!
+              </Link>
             </li>
             <li>
-              <Link class="resLinks" to="/restaurant/perlys">Perly's</Link>
+              <Link class="resLinks" to="/restaurant/perlys">
+                Perly's
+              </Link>
             </li>
             <li>
-              <Link class="resLinks" to="/restaurant/book-binders">Book Binder's</Link>
+              <Link class="resLinks" to="/restaurant/book-binders">
+                Book Binder's
+              </Link>
             </li>
             <li>
-              <Link class="resLinks" to="/restaurant/shyndigz">Shyndigz</Link>
+              <Link class="resLinks" to="/restaurant/shyndigz">
+                Shyndigz
+              </Link>
             </li>
             <li>
-              <Link class="resLinks" to="/restaurant/goatocado">Goatocado</Link>
+              <Link class="resLinks" to="/restaurant/goatocado">
+                Goatocado
+              </Link>
             </li>
             <li>
-              <Link class="resLinks" to="/restaurant/christians-pizza">Christian's Pizza</Link>
+              <Link class="resLinks" to="/restaurant/christians-pizza">
+                Christian's Pizza
+              </Link>
             </li>
           </ul>
         </div>
-        {/* map container */}
+        {/* map container with hard coded center zoom and styling */}
         <div id="mapDisplay">
           <MapContainer
             center={center}
             zoom={13}
             style={{ height: "60vh", width: "50vw" }}
           >
+            {/* tile layer housing map type */}
             <TileLayer
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -132,5 +150,5 @@ function Home() {
     </div>
   );
 }
-
+//exported default home application
 export default Home;

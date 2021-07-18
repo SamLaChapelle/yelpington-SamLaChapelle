@@ -31,7 +31,7 @@
   border: ridge rgb(85, 59, 29) 2vh;
   width: 25vw;
   height: 60vh;
-  margin-left: 15vw;
+  margin-left: 11vw;
 }
 /* restaurant display title */
 #resDisplayTitle {
@@ -74,10 +74,12 @@
   height: 60vh;
 }
 
+/* restaurant page home button */
 #homeButton {
   color:black
 }
 
+/* restaurant page title */
 #resPageTitle{
   text-align: center;
   font-size: 15vh;
@@ -87,6 +89,7 @@
   height: 20vh;
 }
 
+/* restaurant page main display */
 #mainResDisplay {
   display: flex;
   flex-direction: row;
@@ -95,14 +98,16 @@
   position: fixed;
 }
 
+/* restaurant page restaurant display on left */
 #restaurantResDisplay {
   background-color: rgb(20, 34, 26);
   border: ridge rgb(85, 59, 29) 2vh;
   width: 25vw;
   height: 60vh;
-  margin-left: 15vw;
+  margin-left: 11vw;
 }
 
+/* restaurant page restaurant name */
 #restaurantName{
   color: white;
   font-size: 5vh;
@@ -111,6 +116,7 @@
   padding-top: 1vh;
 }
 
+/* restaurant page restaurant address */
 #resAddress{
   color: white;
   font-size: 3vh;
@@ -118,6 +124,7 @@
   padding-top: 1vh;
 }
 
+/* restaurant page restaurant phone number */
 #resPhoneNumber{
   color: white;
   font-size: 3vh;
@@ -125,6 +132,7 @@
   padding-top: 1vh;
 }
 
+/* restaurant page restaurant hours of operation */
 #resHours{
   color: white;
   font-size: 3vh;
@@ -132,6 +140,7 @@
   padding-top: 1vh;
 }
 
+/* restaurant page restaurant customer comments section */
 #customerNotes{
   color: white;
   font-size: 3vh;
@@ -140,6 +149,7 @@
   padding-top: 1vh;
 }
 
+/* restaurant page restaurant customer comments */
 #resNotes{
   color: white;
   font-size: 2vh;
@@ -147,6 +157,7 @@
   padding-top: 1vh;
 }
 
+/* restaurant page restaurant map display */
 #resMapDisplay{
   float: right;
   border: ridge rgb(85, 59, 29) 2vh;
